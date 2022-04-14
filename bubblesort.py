@@ -9,7 +9,7 @@ def bubble_sort(array):
 
 	for i in range(length):
 
-		# swapped variable to track if an element has been swapped during passthrough
+		# swapped variable to track if an element has been swapped during pass through
 		swapped = False
 
 		for j in range(0, length-i-1):
